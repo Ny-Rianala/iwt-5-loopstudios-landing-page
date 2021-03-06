@@ -195,21 +195,37 @@ body > nav > ul a:hover {
 .sitecreation {
   display: flex;
   flex-direction: column;
-  margin-bottom: 30px;
-  position: relative;
-  margin-left: 20px;
-  margin-right: 20px; }
-  .sitecreation__header {
-    position: absolute;
-    top: 25%;
-    left: 5%;
-    font-size: 24px;
-    text-transform: uppercase;
-    color: white;
-    line-height: 23px;
-    padding-right: 150px; }
-
-.creation {
+  align-items: center;
   text-align: center;
-  font-size: 34px;
-  text-transform: uppercase; }
+  padding-bottom: 25%; }
+  .sitecreation__header {
+    text-align: center;
+    font-size: 34px;
+    text-transform: uppercase; }
+  .sitecreation__article {
+    margin-bottom: 30px;
+    position: relative;
+    margin-left: 20px;
+    margin-right: 20px; }
+    .sitecreation__article--header {
+      position: absolute;
+      top: 25%;
+      left: 5%;
+      font-size: 24px;
+      text-transform: uppercase;
+      color: white;
+      line-height: 23px;
+      padding-right: 150px; }
+    .sitecreation__article--button {
+      padding-top: 15px;
+      padding-bottom: 15px;
+      padding-left: 40px;
+      padding-right: 40px;
+      text-transform: uppercase;
+      border: 1px solid black;
+      background: white;
+      cursor: pointer;
+      letter-spacing: 5px; }
+    .sitecreation__article--button:hover {
+      background-color: black;
+      color: white; }
