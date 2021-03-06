@@ -47,16 +47,14 @@ body > nav > ul a {
   top: 7%; }
 
 body > nav {
-  background-color: #ffffff;
-  border-radius: 5px;
+  background-color: black;
   position: absolute;
   z-index: 3;
-  top: 0;
+  top: -99px;
   left: 0;
   bottom: 20px;
-  width: 90%;
-  height: 35%;
-  box-shadow: 0 0 50px rgba(0, 0, 0, 0.5);
+  width: 94%;
+  height: 93%;
   transform: translateX(-110%);
   margin-top: 30%;
   margin-left: 10px;
@@ -110,15 +108,15 @@ body > nav > ul {
   text-align: center; }
 
 body > nav > ul a {
-  text-transform: capitalize;
+  color: white;
+  line-height: 20px;
+  text-transform: uppercase;
   text-decoration: none;
   opacity: 0.5;
-  font-weight: 700;
   font-size: 0.75rem;
   line-height: 2rem;
   display: block;
-  color: #222252;
-  font-size: 16px; }
+  font-size: 24px; }
 
 body > nav .link {
   background-position: 1rem 50%; }
@@ -181,3 +179,37 @@ body > nav > ul a:hover {
     text-transform: uppercase;
     line-height: 40px;
     font-size: 38px; }
+
+.main__mainpage--interactive-image {
+  margin-left: 20px;
+  margin-right: 20px; }
+
+.main__mainpage--interactive-info {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  margin-left: 25px;
+  margin-right: 25px; }
+
+.sitecreation {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 30px;
+  position: relative;
+  margin-left: 20px;
+  margin-right: 20px; }
+  .sitecreation__header {
+    position: absolute;
+    top: 25%;
+    left: 5%;
+    font-size: 24px;
+    text-transform: uppercase;
+    color: white;
+    line-height: 23px;
+    padding-right: 150px; }
+
+.creation {
+  text-align: center;
+  font-size: 34px;
+  text-transform: uppercase; }
