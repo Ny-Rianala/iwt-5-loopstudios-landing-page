@@ -1,0 +1,26 @@
+{
+  "name": "iwt-5-loopstudios-landing-page",
+  "version": "1.0.0",
+  "description": "![Design preview for the Loopstudios landing page coding challenge](./design/desktop-preview.jpg)",
+  "main": "index.js",
+  "dependencies": {
+    "express": "^4.17.1",
+    "node-sass": "^5.0.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "scss": "node-sass scss -o design/css",
+    "scss:watch": "npm run scss && node-sass scss -w -o design/css",
+    "start": "npm run scss:watch"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Ny-Rianala/iwt-5-loopstudios-landing-page.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Ny-Rianala/iwt-5-loopstudios-landing-page/issues"
+  },
+  "homepage": "https://github.com/Ny-Rianala/iwt-5-loopstudios-landing-page#readme"
+}
